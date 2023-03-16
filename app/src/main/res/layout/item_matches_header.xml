@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_marginVertical="@dimen/marginSmall"
+    android:layout_marginHorizontal="@dimen/marginNormal"
+    app:contentPadding="@dimen/paddingSmall"
+    app:cardBackgroundColor="@color/purple_700">
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/world_cup_result"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textLarge"/>
+</androidx.cardview.widget.CardView>

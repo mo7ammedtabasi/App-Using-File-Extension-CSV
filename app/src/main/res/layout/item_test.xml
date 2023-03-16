@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundMain"
+    tools:context=".ui.MainActivity">
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/icon_previous"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="@dimen/marginNormal"-->
+<!--        android:src="@drawable/icon_previous"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textStadium" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/icon_next"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="@dimen/marginNormal"-->
+<!--        android:src="@drawable/icon_next"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textStadium" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textStadium"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="@dimen/textNormal"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textSeprator"-->
+<!--        tools:text="stadium name" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textYear"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:textSize="@dimen/textNormal"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:text="2010" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textSeprator"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="@dimen/textLarge"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/textAwayGoals"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textHomeGoals"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textHomeGoals"-->
+<!--        tools:text="-" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textAwayGoals"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="@dimen/textLarge"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/textAwayName"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textSeprator"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textSeprator"-->
+<!--        tools:text="7" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textHomeGoals"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="@dimen/textLarge"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/textSeprator"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textHomeName"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textHomeName"-->
+<!--        tools:text="0" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textAwayName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="7dp"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="@dimen/textMedium"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textAwayGoals"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textAwayGoals"-->
+<!--        tools:text="German" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textHomeName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="29dp"-->
+<!--        android:layout_marginTop="@dimen/marginNormal"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="@dimen/textMedium"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/textHomeGoals"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textYear"-->
+<!--        tools:text="Brazil" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
